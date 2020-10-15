@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#map{
+    height: 100vh;
+}
+
+.title{
+    font-size: 88px;
+    position: absolute;
+    z-index: 10;
+    top: 100px;
+    left: 100px;
+    color: #333333;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.search-container{
+    position: absolute;
+    z-index: 10;
+    width: 400px;
+    height: 60px;
+    left: 100px;
+    top: 200px;
+    background: #454E53;
+    border: 1px solid #979797;
+    border-radius: 30px;
+}
+
+.search{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.search input{
+    flex-grow: 1;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.search i{
+    font-size: 25px;
+    color: white;
+}
+
+.search input{
+    outline: none;
+}
+
+.stores-list-container{
+    width: 400px;
+    border-radius: 30px;
+    background-color: white;
+    top: 320px;
+    z-index: 10;
+    position: absolute;
+    left: 100px;
+    bottom: 20px;
+}
